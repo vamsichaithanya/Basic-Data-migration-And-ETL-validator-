@@ -79,7 +79,8 @@ The toolkit provides comprehensive difference analysis, including:
 
 ### Output Examples:
 
-1) Console Output			"Recommend to use Console Output only if you're working with very small dataset or datasets with very least mismatched rows"
+1) Console Output
+> Recommend to use Console Output only if you're working with very small dataset or datasets with very least mismatched rows
 - Colored summary of changes
 - Detailed list of added/deleted columns and rows
 - Highlighted row updates
