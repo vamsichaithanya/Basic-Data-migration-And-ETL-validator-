@@ -18,9 +18,9 @@ including column changes, row additions/deletions, updates, and identifying dupl
 - ⏳This application can able to process
   - 4L rows X 7 columns in 1 to 1.5 min with 25% of the rows are mismatched (with primary Key)
   - 4L rows X 7 columns in 2 to 2.5 min with  5% of the rows are mismatched (with out primary Key)
-  > Note:
-	> - Non-primary validator is not stable as primary key validator
-	> - reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
+> Note:
+> - Non-primary validator is not stable as primary key validator
+> - reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
 
 2) Comparison Analysis
 The toolkit provides comprehensive difference analysis, including:
@@ -185,9 +185,7 @@ Export data to SQL Server (interactive mode):
 liftNshift.exportfiles(result)
 ```
 
-	||
 	or
-	||
 
 - Run the Main.py file in Works folder
 - There are already some example snippet's to understand the project outputs with comments
@@ -200,9 +198,8 @@ The tool is configured to connect to a local SQL Server instance named `IAMGROOT
 1. Edit the `exportfiles` method in the `liftNshift.py` file
 2. Update the server name and connection parameters as needed
 
-### Notes
-
-- Make sure SQL Server is running before attempting to export data
-- The tool will sanitize dataframe names to create valid SQL table names
-- When prompted during export, select whether to create a new database or use an existing one
+> ### Note
+> - Make sure SQL Server is running before attempting to export data
+> - The tool will sanitize dataframe names to create valid SQL table names
+> - When prompted during export, select whether to create a new database or use an existing one
 
