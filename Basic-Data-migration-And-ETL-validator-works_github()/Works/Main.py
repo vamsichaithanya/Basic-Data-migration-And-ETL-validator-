@@ -90,40 +90,5 @@ if __name__ == "__main__":
     # sql.checkdump('sampletable1',df_new,'ETL',df_original,'ID')
 
 
-
-
-
-
-
-
-
-
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1.csv", index=False)
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2.csv", index=False)
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1_no_key.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1_no_key.csv", index=False)
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2_no_key.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2_no_key.csv", index=False)
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1_for_assume.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file1_for_assume.csv", index=False)
-
-    df =pd.read_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2_for_assume.csv",low_memory=False)
-    df = df.iloc[:20000,:]
-    df.to_csv(r"C:\Users\vamsi\Downloads\Validator dataset\file2_for_assume.csv", index=False)
-
-
-
     
 
