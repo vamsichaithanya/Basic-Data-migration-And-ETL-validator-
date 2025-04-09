@@ -1,0 +1,47 @@
+[
+  {
+    "id": 101,
+    "name": "Alice Johnson",
+    "age": 30,
+    "department": "Engineering",
+    "skills": ["Python", "C++", "Machine Learning"],
+    "salary": 95000,
+    "location": "Bangalore"
+  },
+  {
+    "id": 102,
+    "name": "Bob Smith",
+    "age": 27,
+    "department": "Design",
+    "skills": ["Photoshop", "Illustrator", "Figma"],
+    "salary": 72000,
+    "location": "Mumbai"
+  },
+  {
+    "id": 103,
+    "name": "Charlie Lee",
+    "age": 35,
+    "department": "HR",
+    "skills": ["Recruitment", "Excel", "Communication"],
+    "salary": 68000,
+    "location": "Delhi"
+  },
+  {
+    "id": 104,
+    "name": "Diana Prince",
+    "age": 29,
+    "department": "Marketing",
+    "skills": ["SEO", "Content Writing", "Social Media"],
+    "salary": 81000,
+    "location": "Hyderabad"
+  },
+  {
+    "id": 105,
+    "name": "Ethan Brown",
+    "age": 32,
+    "department": "Engineering",
+    "skills": ["Java", "Spring", "Microservices"],
+    "salary": 99000,
+    "location": "Chennai"
+  }
+]
