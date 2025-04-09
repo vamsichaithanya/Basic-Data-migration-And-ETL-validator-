@@ -19,8 +19,8 @@ Features:
   - 4L rows X 7 columns in 1 to 1.5 min with 25% of the rows are mismatched (with primary Key)
   - 4L rows X 7 columns in 2 to 2.5 min with  5% of the rows are mismatched (with out primary Key)
   - Note:
-  	- Non-primary validator is not stable as primary key validator
-  	- reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
+         - Non-primary validator is not stable as primary key validator
+	      - reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
 
 2) Comparison Analysis
 The toolkit provides comprehensive difference analysis, including:
@@ -52,7 +52,7 @@ Installation:
 1. Clone the repository
 2. Install required dependencies:
 
-   pip install pandas, json, joblib, datasketch, pyodbc, sqlalchemy, numpy, tqdm, pathlib, os, time
+   `pip install pandas, json, joblib, datasketch, pyodbc, sqlalchemy, numpy, tqdm, pathlib, os, time`
 
 3. Ensure you have the ODBC Driver 17 for SQL Server installed
 
@@ -104,7 +104,7 @@ Limitations:
 
 
 
-================================================================================================================================================================================
+==================================================================================================================================================================================
 
 Data Migration Bridge:-
 
@@ -151,24 +151,24 @@ The core functionality is provided through the `liftNshift` class with three mai
 1. Loading Files
 
 Method 1: Process all supported files in a directory:
-result = liftNshift.load_files(folderpath="path/to/your/data/directory")
+`result = liftNshift.load_files(folderpath="path/to/your/data/directory")`
 
 Method 2: Process only files with specific extension in a directory:
-result = liftNshift.load_files(folderpath="path/to/your/data/directory", file_Extension="csv")
+`result = liftNshift.load_files(folderpath="path/to/your/data/directory", file_Extension="csv")`
 
 Method 3: Process a single file:
-result = liftNshift.load_files(file_path="path/to/your/data/file.json")
+`result = liftNshift.load_files(file_path="path/to/your/data/file.json")`
 
 2. Viewing Data
 
 Print all loaded dataframes:
-liftNshift.printfiles(result)
+`liftNshift.printfiles(result)`
 
 
 3. Exporting to SQL Server
 
 Export data to SQL Server (interactive mode):
-liftNshift.exportfiles(result)
+`liftNshift.exportfiles(result)`
 
 	||
 	or
