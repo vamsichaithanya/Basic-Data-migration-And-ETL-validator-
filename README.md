@@ -18,9 +18,9 @@ Features:
 - ⏳This application can able to process
   - 4L rows X 7 columns in 1 to 1.5 min with 25% of the rows are mismatched (with primary Key)
   - 4L rows X 7 columns in 2 to 2.5 min with  5% of the rows are mismatched (with out primary Key)
-	-Note:
-		- Non-primary validator is not stable as primary key validator
-		- reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
+  - Note:
+  	- Non-primary validator is not stable as primary key validator
+  	- reduce "threshold" to 0 and increase "num_perm" to 256 for perfect accuracy but its gonna take while to process this (also depends on input dataset)
 
 2) Comparison Analysis
 The toolkit provides comprehensive difference analysis, including:
