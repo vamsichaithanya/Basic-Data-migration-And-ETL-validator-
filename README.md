@@ -185,7 +185,7 @@ Export data to SQL Server (interactive mode):
 liftNshift.exportfiles(result)
 ```
 
-	or
+`or`
 
 - Run the Main.py file in Works folder
 - There are already some example snippet's to understand the project outputs with comments
