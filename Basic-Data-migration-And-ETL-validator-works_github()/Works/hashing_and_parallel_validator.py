@@ -771,7 +771,8 @@ class validate:
                         column_widths[sheet_name] = {}
                         for col_num, col_name in enumerate(df.columns):
                             # Pre-calculate max length for each column
-                            max_length = max(df[col_name].astype(str).map(len).max(), len(col_name)) + 2
+                            #max_length = max(df[col_name].astype(str).map(len).max(), len(col_name)) + 2
+                            max_length = max(df[col_name].apply(lambda x: len(str(x)) if pd.notna(x) else 0).max(),len(str(col_name))) + 2
                             column_widths[sheet_name][col_num] = max_length
 
                     progress_bar.update(1)
